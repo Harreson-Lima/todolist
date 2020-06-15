@@ -1,0 +1,63 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+/* ul class */
+.items {
+    list-style: none;
+}
+
+/* div li of todos */
+.box-list {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;  
+    border: solid 2px gray;
+    border-radius: 8px;
+
+    max-width: 90vw;
+
+}
+
+/* li's */
+.input-list {
+    font-family: "Ubuntu", sans-serif;
+    color: #2a312f;
+    font-size: 18px;
+    border: none;
+    max-width: 70vw;
+    text-align: left;
+    background-color: #c6c6c6;
+}
+
+/* button delete, and change color icon */
+.delete-btn {
+    border: none;
+    background-color: #c6c6c6;
+    cursor: pointer;
+    margin-left: 15px;
+    
+    outline: none;
+}
+
+.delete-icon {
+    background-image: url(../assets/delete-black-18dp.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.delete-icon:hover {
+    background-image: url(../assets/delete-red-18dp.svg);
+}
